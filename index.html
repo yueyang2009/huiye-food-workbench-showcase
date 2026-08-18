@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#003366" />
+  <title>财税工作台·某某食品｜面试展示版</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="notice">面试展示版 · 全部为脱敏模拟数据 · 不含客户真实业务数据</div>
+  <header><div><span class="brand-mark">财</span><div><b>财税工作台·某某食品</b><small>食品加工企业经营账与财税驾驶舱</small></div></div><button id="share" aria-label="复制链接">分享</button></header>
+  <main>
+    <section class="hero"><div><p>2026年 4月 · 经营概览</p><h1>让老板每天看懂经营与财税</h1><span>采购、生产、销售、库存与税负，形成一套连续可追溯的经营账。</span></div><button class="primary" data-jump="risks">查看风险提示</button></section>
+    <section class="metrics" aria-label="核心指标">
+      <article><span>本月销售额</span><strong>286.04<em>万元</em></strong><i class="up">较上月 +12.45%</i></article>
+      <article><span>增值税概算</span><strong>18.64<em>万元</em></strong><i class="down">税负率 6.52%</i></article>
+      <article><span>库存预警</span><strong>12<em>项</em></strong><i class="warn">需关注安全库存</i></article>
+      <article><span>应收账款</span><strong>123.58<em>万元</em></strong><i class="down">30天以上 42.68%</i></article>
+    </section>
+    <section class="panel trend"><div class="section-title"><h2>近6个月销售趋势</h2><span>单位：万元</span></div><div class="chart" aria-label="销售趋势图"><svg viewBox="0 0 720 240" role="img"><path class="grid" d="M30 25H700M30 80H700M30 135H700M30 190H700"/><path class="area" d="M45 170 L170 142 L295 97 L420 120 L545 58 L670 76 L670 190 L45 190Z"/><path class="line" d="M45 170 L170 142 L295 97 L420 120 L545 58 L670 76"/><g class="dots"><circle cx="45" cy="170" r="5"/><circle cx="170" cy="142" r="5"/><circle cx="295" cy="97" r="5"/><circle cx="420" cy="120" r="5"/><circle cx="545" cy="58" r="5"/><circle cx="670" cy="76" r="6"/></g><g class="labels"><text x="35" y="220">11月</text><text x="160" y="220">12月</text><text x="288" y="220">1月</text><text x="414" y="220">2月</text><text x="537" y="220">3月</text><text x="660" y="220">4月</text><text x="625" y="61">286.04</text></g></svg></div></section>
+    <section class="panel" id="risks"><div class="section-title"><h2>重点风险提示</h2><button class="text-btn" id="toggle-risks">展开全部</button></div><div class="risk-list">
+      <button class="risk"><b class="orange">!</b><span><strong>进项税抵扣不足</strong><small>本月进项税额低于销项税额 23.15%，税负偏高</small></span><i>查看 ›</i></button>
+      <button class="risk"><b class="red">□</b><span><strong>库存安全线预警</strong><small>12项物料结存低于安全库存，建议及时补货</small></span><i>查看 ›</i></button>
+      <button class="risk hidden"><b class="blue">¥</b><span><strong>应收账款账龄偏长</strong><small>30天以上账款占比 42.68%，需关注回款风险</small></span><i>查看 ›</i></button>
+    </div></section>
+    <section class="panel modules"><div class="section-title"><h2>工作台能力</h2><span>可按客户行业定制</span></div><div class="module-grid"><button data-page="采购销售"><b>购销</b><span>进销项联动</span></button><button data-page="生产库存"><b>库存</b><span>出品率核算</span></button><button data-page="税负分析"><b>税负</b><span>税率与抵扣</span></button><button data-page="经营报告"><b>报告</b><span>老板汇报</span></button></div></section>
+  </main>
+  <nav aria-label="模块导航"><button class="active" data-page="首页">⌂<span>首页</span></button><button data-page="采购销售">⌑<span>采购销售</span></button><button data-page="生产库存">♙<span>生产库存</span></button><button data-page="税负分析">◔<span>税负分析</span></button><button data-page="顾问服务">♟<span>顾问服务</span></button></nav>
+  <div class="toast" role="status"></div><script src="app.js"></script>
+</body></html>
